@@ -1,6 +1,6 @@
 /*Give the <body> element a background of Black*/
 body {
-	background: black;
+	background-color: black;
 	font-family: 'Mali', cursive;
 }
 /*Make the <h1> elements blue*/
@@ -13,7 +13,7 @@ li {
 }
 /*Paragraph background to orange*/
 p {
-	background: orange;
+	background-color: orange;
 }
 /*Make all <h3> have 5px red solid border*/
 h3 {
@@ -34,7 +34,11 @@ abbr {
 	background-color: pink;
 }
 /*Make <li> adjacent to <h2> red background*/
-li + h2{
+h2 + li{
 	background-color: red;
 }
 /*Give <em> inside <p> red and bold*/
+p em {
+	color: red;
+	font-weight: bold;
+}
